@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bad-drivers/static/css/main.f7dc33da.chunk.css",
-    "main.js": "/bad-drivers/static/js/main.7a8fca40.chunk.js",
-    "main.js.map": "/bad-drivers/static/js/main.7a8fca40.chunk.js.map",
-    "runtime-main.js": "/bad-drivers/static/js/runtime-main.ac8e410a.js",
-    "runtime-main.js.map": "/bad-drivers/static/js/runtime-main.ac8e410a.js.map",
-    "static/js/2.74939e57.chunk.js": "/bad-drivers/static/js/2.74939e57.chunk.js",
-    "static/js/2.74939e57.chunk.js.map": "/bad-drivers/static/js/2.74939e57.chunk.js.map",
-    "index.html": "/bad-drivers/index.html",
-    "static/css/main.f7dc33da.chunk.css.map": "/bad-drivers/static/css/main.f7dc33da.chunk.css.map",
-    "static/js/2.74939e57.chunk.js.LICENSE.txt": "/bad-drivers/static/js/2.74939e57.chunk.js.LICENSE.txt"
+    "main.css": "/cs418/bad-drivers/static/css/main.f7dc33da.chunk.css",
+    "main.js": "/cs418/bad-drivers/static/js/main.7a8fca40.chunk.js",
+    "main.js.map": "/cs418/bad-drivers/static/js/main.7a8fca40.chunk.js.map",
+    "runtime-main.js": "/cs418/bad-drivers/static/js/runtime-main.5eb9a74b.js",
+    "runtime-main.js.map": "/cs418/bad-drivers/static/js/runtime-main.5eb9a74b.js.map",
+    "static/js/2.74939e57.chunk.js": "/cs418/bad-drivers/static/js/2.74939e57.chunk.js",
+    "static/js/2.74939e57.chunk.js.map": "/cs418/bad-drivers/static/js/2.74939e57.chunk.js.map",
+    "index.html": "/cs418/bad-drivers/index.html",
+    "static/css/main.f7dc33da.chunk.css.map": "/cs418/bad-drivers/static/css/main.f7dc33da.chunk.css.map",
+    "static/js/2.74939e57.chunk.js.LICENSE.txt": "/cs418/bad-drivers/static/js/2.74939e57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac8e410a.js",
+    "static/js/runtime-main.5eb9a74b.js",
     "static/js/2.74939e57.chunk.js",
     "static/css/main.f7dc33da.chunk.css",
     "static/js/main.7a8fca40.chunk.js"
