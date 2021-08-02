@@ -99,12 +99,12 @@ const BarChart = ({ width }) => {
 			//  d3.select("rect").select("text").style("fill", "black");
 		});
 
-	const makeAnnotations = d3.annotation()
-		.annotations(annotations)
+	// const makeAnnotations = d3.annotation()
+	// 	.annotations(annotations)
 	
-	d3.select("#example1")
-		.append("g")
-		.call(makeAnnotations)
+	// d3.select("#example1")
+	// 	.append("g")
+	// 	.call(makeAnnotations)
 
 	svg.append("g")
 		.attr("fill", "white")
