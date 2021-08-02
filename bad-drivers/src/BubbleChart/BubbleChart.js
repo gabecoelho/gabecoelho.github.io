@@ -96,7 +96,12 @@ const BarChart = ({ width }) => {
 		.append('div')
 		.style('visibility', 'hidden')
 		.style('position', 'absolute')
-		.style('background-color', 'red')
+		.style('background-color', 'black')
+		.style('color', '#fff')
+		.style('text-align', 'center')
+		.style('padding', '10px 0')
+		.style('border-radius', '6px')
+		.style('z-index', '1')
 
 	node.append("circle")
 		.attr("r", (d) => {
@@ -106,8 +111,18 @@ const BarChart = ({ width }) => {
 			return color(i);
 		})
 		.on('mouseover', (e, d) => {
+			const totalDrivers = parseFloat(d.data["Number of drivers involved in fatal collisions per billion miles"]);
+			const speedingDrivers = parseInt(totalDrivers * parseFloat(d.data["Percentage Of Drivers Involved In Fatal Collisions Who Were Speeding"]));
+
+			const tooltipText = `Number of speeding drivers: ${speedingDrivers}`;
 			tooltip.style('visibility', 'visible')
-				.text('heck yeah')
+				.text(tooltipText);
+		})
+		.on('mousemove', (e, d) => {
+			tooltip.style('top', (e.pageY-50) + 'px').style('left', (e.pageX-50) + 'px');
+		})
+		.on('mouseout', (e, d) => {
+			tooltip.style('visibility', 'hidden');
 		});
 
 	node.append("text")

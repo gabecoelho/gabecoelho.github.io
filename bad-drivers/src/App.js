@@ -13,14 +13,13 @@ function App() {
 	const ITEMS_PER_PAGE = 1;
 
 	const [data, setData] = useState([]);
-	const [error, setError] = useState();
 	const {currentPage, setCurrentPage} = usePagination(data, ITEMS_PER_PAGE);
 
 
 	const pageMap = {
 		1: (
 			<div className="num-drivers-collision-per-billion-miles">
-				<h1 style={{margin:20, textAlign: 'center'}} className="label-1">🚘 Number of drivers involved in fatal collisions per billion miles </h1>
+				<h1 style={{margin:20, marginTop: 30, textAlign: 'center'}} className="label-1">🚘 Number of drivers involved in fatal collisions per billion miles </h1>
 					<Bar
 						width={900}
 					/>
@@ -36,7 +35,7 @@ function App() {
 		),
 		3: (
 			<div className="percent-drivers-speeding-colision">
-			<h1 style={{margin:20, textAlign: 'center'}} className="label-2">💸<span style={{'textDecoration': 'underline'}}></span> Average combined insurance premium</h1>
+			<h1 style={{margin:20, marginTop: 30, textAlign: 'center'}} className="label-2">💸<span style={{'textDecoration': 'underline'}}></span> Average combined insurance premium</h1>
 				
 		</div>
 		)
